@@ -1,0 +1,25 @@
+black   #1E1E1E
+gray    #999999
+red     #CE9178
+green   #4EC9B0
+yellow  #DCDCAA
+blue    #569CD6
+magenta #C586C0
+cyan    #9CDCFE
+white   #D4D4D4
+--------
+fg      $black
+bg      $white
+--------
+sele_bg #264F78
+sele_fg $white
+--------
+comment #6A9955
+const   #4FC1FF
+num     #B5CEA8
+--------
+guide   #282828
+split   #474747
+--------
+cur_bg  #AEAEAE
+cur_fg  $black
