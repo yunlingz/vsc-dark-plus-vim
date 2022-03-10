@@ -1,20 +1,16 @@
 # VSC Dark Plus for VIM
 
+VSC's default dark theme now ported to VIM.
+
 ## Preview
 
 ### Vim/Neovim
 
 ![nvim preview](https://raw.githubusercontent.com/yunlingz/vim-equinusocio-material-preview/master/vsc_dark_plus/nvim.png)
 
-### iTerm
-
-![term preview](https://raw.githubusercontent.com/yunlingz/vim-equinusocio-material-preview/master/vsc_dark_plus/term.png)
-
 ## Usage
 
-iTerm color preset: [vsc_dark_plus.itermcolors](term/)
-
-[basic color preset](preset_doc/color.txt)
+### Vim/Neovim
 
 Neovim/Vim
 
@@ -43,6 +39,10 @@ let g:lightline = {
   \ 'colorscheme': 'vsc_dark_plus',
 }
 ```
+
+### Terminal emulator
+
+Visit [term](term/) folder.
 
 ## License
 
