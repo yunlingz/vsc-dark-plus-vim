@@ -24,7 +24,7 @@ let s:colors.num = '#B5CEA8'
 let s:colors.special = '#D7BA7D'
 
 let s:colors.selection_bg = '#264F78'
-let s:colors.selection_fg = s:colors.foreground
+" let s:colors.selection_fg = s:colors.foreground
 
 let s:colors.cursor_bg = '#AEAEAE'
 let s:colors.cursor_fg = s:colors.background
@@ -33,12 +33,15 @@ let s:colors.cursor_guide = '#282828'
 let s:colors.split = '#474747'
 let s:colors.line_nr = '#858585'
 
-" -- TODO --
-
 let s:colors.win_bg = '#323232'
 let s:colors.selected_bg = '#094771'
 
-let s:colors.sneak_bg = '#b32ef0'
+let s:colors.normal = '#4D344A'
+let s:colors.insert = '#1E4D43'
+let s:colors.visual = '#4D4D3B'
+let s:colors.replace = '#4D352C'
+
+let s:colors.sneak_bg = '#68217A'
 
 let s:colors.none = 'NONE'
 let s:colors.underline = 'underline'

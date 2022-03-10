@@ -17,21 +17,21 @@ let s:airline_modified_group = {
   \ }
 
 
-let s:airline_a_normal = [s:colors.background , s:colors.cyan, '', '']
+let s:airline_a_normal = [s:colors.foreground, s:colors.normal, '', '']
 let s:airline_b_normal = s:airline_b
 let s:airline_c_normal = s:airline_c
 let s:palette.normal = airline#themes#generate_color_map(s:airline_a_normal, s:airline_b_normal, s:airline_c_normal)
 let s:palette.normal_modified = s:airline_modified_group
 
 
-let s:airline_a_insert = [s:colors.background , s:colors.green, '', '']
+let s:airline_a_insert = [s:colors.foreground, s:colors.insert, '', '']
 let s:airline_b_insert = s:airline_b
 let s:airline_c_insert = s:airline_c
 let s:palette.insert = airline#themes#generate_color_map(s:airline_a_insert, s:airline_b_insert, s:airline_c_insert)
 let s:palette.insert_modified = s:airline_modified_group
 
 
-let s:airline_a_visual = [s:colors.background , s:colors.yellow, '', '']
+let s:airline_a_visual = [s:colors.foreground, s:colors.visual, '', '']
 let s:airline_b_visual = s:airline_b
 let s:airline_c_visual = s:airline_c
 let s:palette.visual = airline#themes#generate_color_map(s:airline_a_visual, s:airline_b_visual, s:airline_c_visual)
