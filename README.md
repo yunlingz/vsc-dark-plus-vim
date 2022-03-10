@@ -6,13 +6,15 @@
 
 ![nvim preview](https://raw.githubusercontent.com/yunlingz/vim-equinusocio-material-preview/master/vsc_dark_plus/nvim.png)
 
-### Terminal
+### iTerm
 
 ![term preview](https://raw.githubusercontent.com/yunlingz/vim-equinusocio-material-preview/master/vsc_dark_plus/term.png)
 
 ## Usage
 
 iTerm color preset: [vsc_dark_plus.itermcolors](term/)
+
+[basic color preset](preset_doc/color.txt)
 
 Neovim/Vim
 
@@ -41,8 +43,6 @@ let g:lightline = {
   \ 'colorscheme': 'vsc_dark_plus',
 }
 ```
-
-[basic color preset](preset_doc/color.txt)
 
 ## License
 
