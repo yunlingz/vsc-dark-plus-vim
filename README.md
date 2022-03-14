@@ -1,6 +1,6 @@
 # VSC Dark Plus for VIM
 
-VSC's default dark theme now ported to VIM.
+VSC's default dark theme ported to VIM.
 
 ## Preview
 
