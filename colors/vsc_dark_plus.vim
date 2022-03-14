@@ -144,9 +144,9 @@ call s:HL('Exception', s:colors.magenta, s:colors.none, s:colors.bold)
 call s:HL('PreProc', s:colors.magenta, s:colors.none)
 call s:HL('Include', s:colors.green, s:colors.none)
 " <Macro> same as <Define>
-call s:HL('Define', s:colors.cyan, s:colors.none)
-call s:HL('Macro', s:colors.cyan, s:colors.none)
-call s:HL('PreCondit', s:colors.cyan, s:colors.none)
+call s:HL('Define', s:colors.yellow, s:colors.none)
+call s:HL('Macro', s:colors.yellow, s:colors.none)
+call s:HL('PreCondit', s:colors.magenta, s:colors.none)
 " ----------------------------------------------------
 call s:HL('Type', s:colors.green, s:colors.none, s:colors.bold)
 call s:HL('StorageClass', s:colors.blue, s:colors.none, s:colors.bold)
@@ -228,7 +228,7 @@ if !exists('g:rainbow_conf')
 endif
 
 if !has_key(g:rainbow_conf, 'guifgs')
-  let g:rainbow_conf['guifgs'] = [s:colors.cyan, s:colors.yellow, s:colors.red]
+  let g:rainbow_conf['guifgs'] = [s:colors.red, s:colors.yellow, s:colors.cyan]
 endif
 
 if !has_key(g:rainbow_conf, 'separately')
